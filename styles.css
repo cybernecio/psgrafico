@@ -1,0 +1,27 @@
+/* Estilos CSS para el gráfico */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+#chart-container {
+  margin: 20px;
+}
+.dot {
+  fill: #4285F4;
+  stroke: #fff;
+  stroke-width: 1;
+}
+#tooltip {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 5px;
+  display: none;
+  font-size: 14px;
+}
+.legend {
+  font-size: 12px;
+  margin-top: 10px;
+}
